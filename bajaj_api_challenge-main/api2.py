@@ -14,14 +14,14 @@ def welcome():
             numbers.append(data)
     return jsonify({
         "is_success": True,
-        "name": "john",
-        "email" : "john@xyz.com",
-        "roll_number":"ABCD123",
-        "phone" : "9996665050"
+        "company": "Bajaj",
+        "currentPrice" : "₹8,384.90",
+        "accountNumber":"ABCD123",
+        "githubRepoLink":"https://github.com/Vanshika636/deploy/edit/main/bajaj_api_challenge-main/api2.py",
         "numbers": numbers,
         "alphabets": alphabets}
                    
     )
 
 if __name__ == '__main__':
-    app.run()
+    api2.run()
