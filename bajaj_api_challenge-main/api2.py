@@ -17,7 +17,7 @@ def welcome():
         "company": "Bajaj",
         "currentPrice" : "₹8,384.90",
         "accountNumber":"ABCD123",
-        "githubRepoLink":"https://github.com/Vanshika636/deploy/edit/main/bajaj_api_challenge-main/api2.py",
+        "githubRepoLink":"https://github.com/Vanshika636/deploy.git",
         "numbers": numbers,
         "alphabets": alphabets}
                    
