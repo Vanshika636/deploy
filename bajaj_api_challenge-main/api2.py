@@ -13,6 +13,7 @@ def welcome():
         else:
             numbers.append(data)
     return jsonify({
+        
         "is_success": True,
         "company": "Bajaj",
         "currentPrice" : "₹8,384.90",
