@@ -1,8 +1,8 @@
 from flask import Flask,jsonify,request
-
+api_url = " https://customer-analytics-34146.my.salesforce-sites.com/services/apexrest/createAccount"
 app = Flask(__name__)
 
-@app.route('/bfhl', methods=['POST'])
+@app.route('/customer-analytics-34146.my.salesforce-sites.com/services/apexrest/createAccount', methods=['POST'])
 def welcome():
     print(request.json["data"])
     numbers = []
@@ -14,11 +14,13 @@ def welcome():
             numbers.append(data)
     return jsonify({
         "is_success": True,
-        "user_id": "john_do_17091999",
+        "name": "john",
         "email" : "john@xyz.com",
         "roll_number":"ABCD123",
+        "phone" : "9996665050"
         "numbers": numbers,
         "alphabets": alphabets}
+                   
     )
 
 if __name__ == '__main__':
