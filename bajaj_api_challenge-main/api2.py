@@ -1,5 +1,5 @@
 from flask import Flask,jsonify,request
-api_url = " https://customer-analytics-34146.my.salesforce-sites.com/services/apexrest/buyStocks"
+
 app = Flask(__name__)
 
 @app.route('/customer-analytics-34146.my.salesforce-sites.com/services/apexrest/buyStocks', methods=['POST'])
